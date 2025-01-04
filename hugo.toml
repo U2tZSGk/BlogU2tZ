@@ -1,16 +1,21 @@
 baseURL = 'https://u2tz.org'
-languageCode = "zh-cn"
+languageCode = "en-us"
 title = "Blog.U2tZ"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+enableEmoji = true
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableGitInfo = true
+hasCJKLanguage = true
+copyright = "<a href='https://u2tz.org'>U2tZ.org</a> Powered by <a href='https://gohugo.io'>Hugo</a> & <a href='https://github.com/MeiK2333/github-style'>Github-Style</a>, licensed under <a href='https://creativecommons.org/licenses/by-nd/4.0'>CC BY-ND 4.0</a>"
 
 [params]
 author = "U2tZ"
 description = "In solitude, where we are least alone."
-github = "U2tZSGk"
 email = "SGk@U2tZ.org"
-url = "https://U2tZ.org"
+url = "https://GitHub.com/U2tZSGk"
 keywords = "blog, google analytics"
 rss = true
 lastmod = true
@@ -25,22 +30,22 @@ custom_js = ["js/custom.js"]
 enableSearch = true
 
 [outputs]
-  home = ["html", "json"]
+home = ["html", "json"]
 
 [outputFormats.json]
-  mediaType = "application/json"
-  baseName = "index"
-  isPlainText = false
+mediaType = "application/json"
+baseName = "index"
+isPlainText = false
 
 
 [[params.links]]
 title = "Twitter"
 href = "https://x.com/U2tZSGk"
-icon = "https://pic.u2tz.org/icon/twitterx.png"
+icon = "https://pic.u2tz.org/icon/twitter.png"
 [[params.links]]
 title = "Telegram"
 href = "https://t.me/U2tZSGk"
-icon = "https://pic.u2tz.org/icon/telegramx.png"
+icon = "https://pic.u2tz.org/icon/telegram.png"
 [[params.links]]
 title = "My Blog"
 href = "https://u2tz.org"
@@ -48,4 +53,3 @@ icon = "https://pic.u2tz.org/avatar.jpeg"
 
 [frontmatter]
 lastmod = ["lastmod", ":fileModTime", ":default"]
-
