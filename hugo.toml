@@ -1,0 +1,51 @@
+baseURL = 'https://u2tz.org'
+languageCode = "zh-cn"
+title = "Blog.U2tZ"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+author = "U2tZ"
+description = "In solitude, where we are least alone."
+github = "U2tZSGk"
+email = "SGk@U2tZ.org"
+url = "https://U2tZ.org"
+keywords = "blog, google analytics"
+rss = true
+lastmod = true
+userStatusEmoji = "🧊"
+favicon = "/img/acrown.png"
+avatar = "/img/avatar.jpg"
+headerIcon = "/img/crown.png"
+location = "Earth"
+enableGitalk = false
+custom_css = ["css/custom.css"]
+custom_js = ["js/custom.js"]
+enableSearch = true
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
+
+
+[[params.links]]
+title = "Twitter"
+href = "https://x.com/U2tZSGk"
+icon = "https://pic.u2tz.org/icon/twitterx.png"
+[[params.links]]
+title = "Telegram"
+href = "https://t.me/U2tZSGk"
+icon = "https://pic.u2tz.org/icon/telegramx.png"
+[[params.links]]
+title = "My Blog"
+href = "https://u2tz.org"
+icon = "https://pic.u2tz.org/avatar.jpeg"
+
+[frontmatter]
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
