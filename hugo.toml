@@ -1,6 +1,6 @@
 baseURL = 'https://u2tz.org'
 languageCode = "en-us"
-title = "Blog.U2tZ"
+title = "𝑼𝟐𝒕𝒁"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -9,10 +9,10 @@ enableInlineShortcodes = true
 enableRobotsTXT = true
 enableGitInfo = true
 hasCJKLanguage = true
-copyright = "<a href='https://u2tz.org'>U2tZ.org</a> Powered by <a href='https://gohugo.io'>Hugo</a> & <a href='https://github.com/MeiK2333/github-style'>Github-Style</a>, licensed under <a href='https://creativecommons.org/licenses/by-nd/4.0'>CC BY-ND 4.0</a>"
+copyright = "<a href='https://u2tz.org'>𝑼𝟐𝒕𝒁</a> Powered by <a href='https://gohugo.io'>Hugo</a> & <a href='https://github.com/MeiK2333/github-style'>Github-Style</a>, licensed under <a href='https://creativecommons.org/licenses/by-nd/4.0'>CC BY-ND 4.0</a>"
 
 [params]
-author = "U2tZ"
+author = "𝑼𝟐𝒕𝒁"
 description = "In solitude, where we are least alone."
 email = "SGk@U2tZ.org"
 url = "https://GitHub.com/U2tZSGk"
